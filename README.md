@@ -1,17 +1,17 @@
-# react-minimalist-modal
+# 📂 react-minimalist-modal
+react-minimalist-modal est un composant React simple et minimaliste pour créer des fenêtres modales. Il offre une interface propre et personnalisable avec de nombreuses options de style.
 
-Simple and minimalist modal component for React applications.
+## 🔗 Lien
+Vous pouvez trouver le package npm ici : [react-minimalist-modal](https://www.npmjs.com/package/react-minimalist-modal)
 
-## Installation
-
-You can install the `react-minimalist-modal` package via npm:
+## 📥 Installation
+Vous pouvez installer le package `react-minimalist-modal` via npm :
 
 ```bash
 npm install react-minimalist-modal
 ```
 
-## Usage
-
+## 🚀 Utilisation
 ```js
 import React, { useState } from "react";
 import Modal from "react-minimalist-modal";
@@ -51,24 +51,22 @@ const MyComponent = () => {
 export default MyComponent;
 ```
 
-## Props
+## ⚙️ Props
+| Prop                 | Type     | Requis | Description                                      |
+| -------------------- | -------- | ------ | -------------------------------------------------|
+| isOpen               | boolean  | Oui    | Contrôle si la modale est ouverte ou fermée.     |
+| onClose              | fonction | Oui    | Fonction de rappel pour fermer la modale.        |
+| modalTitle           | string   | Oui    | Titre de la modale.                              |
+| modalWidth           | string   | Non    | Largeur de la modale.                            |
+| modalBackgroundColor | string   | Non    | Couleur d'arrière-plan de la modale.             |
+| modalBorderColor     | string   | Non    | Couleur de la bordure de la modale.              |
+| modalTitleColor      | string   | Non    | Couleur du titre de la modale.                   |
+| modalTitleFontSize   | string   | Non    | Taille de police du titre de la modale.          |
+| modalTitleFontWeight | string   | Non    | Graisse de police du titre de la modale.         |
+| modalTitleFont       | string   | Non    | Famille de police du titre de la modale.         |
+| closeButtonColor     | string   | Non    | Couleur du bouton de fermeture.                  |
+| closeButtonSize      | string   | Non    | Taille de police du bouton de fermeture.         |
+| lineColor            | string   | Non    | Couleur de la ligne dans l'en-tête de la modale. |
 
-| Prop                 | Type     | Required | Description                                   |
-| -------------------- | -------- | -------- | --------------------------------------------- |
-| isOpen               | boolean  | Yes      | Controls whether the modal is open or closed. |
-| onClose              | function | Yes      | Callback function to close the modal.         |
-| modalTitle           | string   | Yes      | Title of the modal.                           |
-| modalWidth           | string   | No       | Width of the modal.                           |
-| modalBackgroundColor | string   | No       | Background color of the modal.                |
-| modalBorderColor     | string   | No       | Border color of the modal.                    |
-| modalTitleColor      | string   | No       | Color of the modal title.                     |
-| modalTitleFontSize   | string   | No       | Font size of the modal title.                 |
-| modalTitleFontWeight | string   | No       | Font weight of the modal title.               |
-| modalTitleFont       | string   | No       | Font family of the modal title.               |
-| closeButtonColor     | string   | No       | Color of the close button.                    |
-| closeButtonSize      | string   | No       | Font size of the close button.                |
-| lineColor            | string   | No       | Color of the line in the modal header.        |
-
-## License
-
-This project is licensed under the MIT License.
+## 📜 Licence
+Ce projet est sous licence MIT.
